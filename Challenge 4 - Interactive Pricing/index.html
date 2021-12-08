@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/styles.css">  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+  <script defer src="/js/js.js"></script>
+    
+  <title>Frontend Mentor | Interactive pricing component</title>
+</head>
+
+<body>
+  <main class="main">
+
+    <header class="header">
+
+      <div class="div-header">
+        <div class="title-header">
+          Simple, traffic-based pricing
+        </div>
+        <p class="paragraph-header">
+          Sign-up for our 30-day trial. No credit card required. 
+        </p>
+      </div>
+
+    </header>
+
+    <article class="article">
+
+      <div class="header-article">
+
+        <div class="div-paragraph_article">
+          <p class="paragraph-article"><span class="pageview" id="pageview">0</span> PAGEVIEWS</p>
+        </div>
+        <div class="div-paragraph_article">
+          <p class="price" id="price">$0.00</p>
+          <p class="paragraph-article"> /month</p>
+        </div>
+        
+      </div>
+
+      <div class="range-article">
+        <input type="range" class="range" id="range" min="0" max="100" step="20" value="0">
+      </div>
+
+      <div class="button-article">
+        <p class="paragraph">Monthly Billing</p>
+        <input type="checkbox" class="check" id="check">
+        <label for="check" class="label-check" id="label-check"></label>
+        <p class="paragraph">Yearly Billing</p>
+        <p class="paragraph red">25% discount</p>
+      </div>
+
+      <div class="caja-padre">
+
+        <div class="caja-hijo">
+          <div class="texto-1">
+            <img src="/images/icon-check.svg" class="chulo">
+            <p class="paragraph p">Unlimited websites</p>
+          </div>  
+
+          <div class="texto-1">
+            <img src="/images/icon-check.svg" class="chulo">
+            <p class="paragraph p">100% data ownership</p>
+          </div>
+
+          <div class="texto-1">
+            <img src="/images/icon-check.svg" class="chulo">
+            <p class="paragraph p">Email reports</p>
+          </div>
+
+        </div>
+        <div class="caja-padre_2">
+          <a href="#" class="button-footer">Start my trial</a>
+        </div>
+
+      </div>
+
+    </article>
+  </main>
+</body>
+</html>

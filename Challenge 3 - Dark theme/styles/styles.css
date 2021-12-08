@@ -1,0 +1,401 @@
+:root{
+    --main-background: hsl(218, 28%, 13%);
+    --intro-email: hsl(217, 28%, 15%);
+    --footer-background: hsl(216, 53%, 9%);
+    --testimonials-background: hsl(219, 30%, 18%);
+
+    --Cyan: hsl(176, 68%, 64%);
+    --Blue: hsl(198, 60%, 50%);
+    --Light-Red: hsl(0, 100%, 63%);
+
+    --White: hsl(0, 0%, 100%);
+
+    --heading: 'Open Sans', sans-serif;
+    --body: 'Raleway', sans-serif;    
+
+}
+*{
+    box-sizing: border-box;
+    font-size: 14px;
+    color: var(--White);
+}
+h1{
+    font-family: var(--heading);
+    font-size: 2em;
+    font-weight: 700;
+    color: var(--White);
+}
+h2{
+    font-family: var(--body);
+    font-weight: 700;
+    color: var(--White);
+}
+p{
+    font-family: var(--body);
+    font-weight: 400;
+    color: var(--White);
+}
+
+/* -------------------------STYLES OF THE HEADER ------------------------- */
+.main{background-color: var(--intro-email);}
+.menu{
+    width: 100%;
+    padding: 25px 45px;
+    margin: 0 0 50px 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--heading);
+    background-color: var(--intro-email);
+}
+.buttons-menu{
+    display: flex;
+    list-style: none;    
+}
+.link{
+    color: var(--White);
+    text-decoration: none;
+    margin: 0 25px;
+    padding-bottom: 1px;
+}
+.link:hover{border-bottom: 1px solid var(--White);}
+
+/* ------------------------ STYLES ARTICLE ONE --------------------------- */
+
+.article-one{
+    text-align: center; 
+    padding-bottom: 220px;
+    background-color:var(--intro-email);
+    margin: var(--intro-email);    
+    background-image: url(/images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 0 11.3cm;
+}
+.div-article-one{
+    width: 535px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image-article-one{margin-bottom: 25px;}
+.title-article-one{ line-height: 40px; margin: 0;}
+.paragraph-article-one{
+    padding: 0 45px;
+    line-height: 20px;
+}
+.button-one{
+    padding: 10px 55px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-family: var(--body);
+    color: var(--White);
+    background-color: var(--Cyan);
+}
+.button-one:hover{text-decoration: underline; font-weight: 700;}
+
+
+/* ------------------------ STYLES ARTICLE TWO --------------------------- */
+
+.article-two{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 80px 0;
+    background-color: var(--main-background);
+}
+.div-article-two{
+    width: 380px;
+    margin-right: 45px;
+    margin-left: 45px;
+}
+.paragraph-article-two{ margin-bottom: 80px; }
+
+
+/* ------------------------ STYLES ARTICLE THREE --------------------------- */
+
+
+.article-three{
+    display: flex;
+    padding-bottom: 130px;
+    padding: 0 150px 180px 150px;
+    align-items: center;
+    background-color: var(--main-background);
+}
+.title-article-three{line-height: 35px;}
+.link-article-three{
+    position: relative;
+    padding-bottom: 2px;
+    text-decoration: none;
+    font-family: var(--body);
+    color: var(--White);
+}
+.arrow{
+    position: relative;
+    bottom: -5px;
+}
+.link-article-three:hover{
+    border-bottom: 1px solid var(--White);
+}
+
+/* ------------------------ STYLES ARTICLE FOUR --------------------------- */
+
+.article-four{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 350px 0;
+    background-color: var(--main-background);
+}
+
+.div-article-four{
+    position: relative;
+    width: 360px;
+    height: 220px;
+    border-radius: 10px;
+    padding: 30px 30px 40px 30px;
+    margin:0 15px;
+    background-color: var(--testimonials-background);
+    box-shadow: 7px 7px rgba(32, 42, 60, 0.3);
+}
+.comillas{
+    position: absolute;
+    width: 45px;
+    height: 35px;
+    left: 40px;
+    top: -35px;
+}
+.paragraph-article-four{background-color: var(--testimonials-background);}
+.profile-article-four{
+    position: absolute;
+    bottom: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.paragraph-article-four-n{
+    position: absolute;
+    left: 100px;
+    bottom: 33px;
+}
+
+/* ------------------------ STYLES FINAL SECTION --------------------------- */
+
+.article-five{
+    background-color: var(--footer-background);
+    font-family: var(--body);
+}
+.div-article-five{
+    position: relative;
+    width: 720px;
+    height: 250px;
+    top: -125px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px -4px black;
+    text-align: center;
+    background-color: var(--intro-email);    
+}
+.paragraph-article-five{
+    padding: 0 50px;
+    margin-bottom: 40px;
+}
+.input-article-five{
+    width: 400px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    margin-right: 40px;
+    color: black;
+}
+.buttom-article-five{
+    padding: 12px 30px;
+    border-radius: 30px;
+    background-color: var(--Cyan);
+    cursor: pointer;
+    border: none;
+}
+.buttom-article-five:hover{text-decoration: underline; font-weight: 700;}
+
+
+
+/* ------------------------ FOOTER --------------------------- */
+
+.footer{
+    background-color: var(--footer-background);  
+    font-family: var(--heading);  
+}
+.logo-footer{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.section-footer{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
+}
+.div-footer-one{
+    position: relative;
+    width: 28%;
+    padding-left: 35px;
+}
+.location{
+    position: absolute;
+    width: 15px;
+    height: 18px;
+    left: 0;
+}
+.contact{margin-right: 30px;}
+.div-footer-link{width: 78px;}
+.link-footer{
+    display: block;
+    line-height: 38px;
+    text-decoration: none;
+}
+.link-footer:hover{font-weight: 700;}
+.div-footer-logos{
+    width: 135px;
+    padding-top: 10px;
+}
+.button-logo{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+.logos{
+    width: 18px;
+    height: 18px;
+}
+.button-logo:hover{
+    border: 1px solid var(--White);
+}
+.space{margin-right: 7px;}
+
+
+
+
+/* ------------ MOVILE DESING ----------------*/
+
+@media (max-width:939px) {
+    .menu{padding: 25px 15px;}
+    .logo-menu{
+        width: 100px;
+        padding-top: 10px;
+    }
+    /* .article-one{
+        background-image: url(/images/bg-curvy-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 50% ;
+    } */
+    .image-article-one{
+        width: 350px;
+        height: 300px;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    .title-article-one{
+        width: 400px;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    .paragraph-article-one{
+        width: 390px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .article-two{
+        display: block;
+    }
+    .div-article-two{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .article-three{
+        display: block;    
+        text-align: center;
+        padding:0;
+        padding-bottom: 150px;
+    }
+    .img-article-three{
+        width: 350px;
+        height: 300px;
+    }
+    .div-two-article-three{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .article-four{
+        display: block;
+        padding-bottom: 200px;
+    }
+    .comillas{left: 50px;}
+    .div-article-four{        
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+    .div-article-five{
+        width: 90%;
+        height: 350px;
+    }
+    .paragraph-article-five{
+        padding: 0 35px;
+    }
+    .form-article{
+        display: block;
+    }
+    .input-article-five{
+        width: 325px;
+        margin: 0 0 25px 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .buttom-article-five{
+        width: 325px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo{
+        width: 150px;
+        height: 50px;
+    }
+    .section-footer{
+        display: block;
+    }
+    .div-footer-one{
+        width: 80%;
+    }
+    .paragraph-location{
+        line-height: 30px;
+    }
+    .space{
+        margin-bottom: 30px;
+    }
+    .div-footer-logos{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+
+}
+
+.attribution { font-size: 11px; text-align: center; padding-bottom: 60px; }
+.attribution a { color: hsl(228, 45%, 44%); }
+

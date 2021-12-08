@@ -1,0 +1,274 @@
+:root{
+    --color-white: #fff;
+    --button-color: hsl(193, 100%, 96%);
+    --title-color: hsl(192, 100%, 9%);
+    --text-color: hsl(208, 11%, 55%);
+    --color-pink: hsl(322, 85%, 55%);
+}
+*{
+    box-sizing: border-box;
+    font-size: 18px;
+}
+.titles{ font-family: 'Poppins', sans-serif; }
+.text{ font-family: 'Open Sans', sans-serif; }
+
+.box{
+    width: 1200px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    box-shadow: 0px 2px 15px -1px rgba(0, 0, 0, 0.3);
+    padding: 100px;
+    border-radius: 10px;
+    margin-bottom: 45px;
+}
+
+/* -----------------STYLES HEADER - MENU---------------------- */
+
+.article-one{
+    background-image: url(/images/bg-hero-desktop.svg);
+    margin-bottom: 90px;
+}
+.menu{
+    padding: 40px 50px 40px 50px;
+    margin-bottom: 15px;
+}
+.button-one{
+    float: right;
+    padding: 15px 55px 15px 55px;
+    border-radius: 30px;
+    background-color:var(--color-white);
+    border: none; 
+    box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.a-b1{
+    text-decoration: none;
+    color: var(--title-color);    
+}
+
+/* ----------------STYLES SECTION ONE------------------------ */
+
+.section-one{
+    display: flex;
+    margin-bottom: 50px;
+}
+.div-section-one{
+    width: 600px;
+    margin-left: 50px;
+    padding: 40px;
+}
+.title-one{
+    padding-right: 40px;
+    line-height: 50px;
+}
+.p-one{
+    color: var(--title-color);
+    margin-bottom: 40px;
+}
+.button-two{
+    padding: 15px 55px 15px 55px;
+    border-radius: 30px;
+    background-color:var(--color-pink);
+    color: var(--button-color);
+    border: none; 
+    box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+}
+
+/* ----------------STYLES SECTION TWO------------------------ */
+
+.div-section-two{ margin: 0 40px 0 40px; }
+.title-two .title-three .title-four{ font-size: 30px; }
+
+/* ----------------STYLES SECTION THREE------------------------ */
+
+.div-section-three{ margin: 0 0 0 100px; }
+
+ /* ----------------STYLES SECTION FOUR------------------------ */
+
+.p-four{ margin-right: 110px; }
+.section-four{ margin-bottom: 200px; }
+
+
+/* ----------------STYLES SECTION FOOTER------------------------ */
+
+.footer{ background-color: var(--title-color); }
+.logo{ background-color: #fff; }
+
+ /* ----------------STYLES SECTION FIVE------------------------ */
+
+ .section-five{
+     background-color: var(--color-white);
+     position: relative;
+     width: 500px;
+     height: 200px;
+     left: 30%;
+     top: -100px;
+     box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.9);
+     border-radius: 10px;
+     padding: 50px;
+     text-align: center;
+ }
+
+ .title-five{ margin-bottom: 30px;}
+
+ /* ----------------STYLES FOOTER ------------------------ */
+
+.final-section{
+    display: flex;
+    padding-bottom: 50px;
+    margin: 0 80px 50px 80px;
+    align-items: center;
+}
+.div-f-one{
+    position: relative;
+    width: 350px;
+}
+.extra{
+    width: 250px;
+    padding-left: 80px;
+    line-height: 40px;
+    text-decoration: none;
+}
+.img-f-one{
+    position: absolute;
+    left: 0;
+}
+.p-f-one{
+    padding-left:40px;
+    font-size: 13px;
+    color: var(--button-color);
+}
+.one{ top: 60px; }
+.link{
+    display: block;
+    text-decoration: none;
+    color: var(--button-color);
+    font-size: 13px;
+}
+.link:hover{
+    color: var(--color-pink);
+}
+.div-footer{
+    padding-left: 50px;
+    width: 350px;
+    height: 200px;
+    position: relative;
+    color: var(--button-color);
+}
+.p-f{ 
+    font-size: 13px;
+    position: absolute; 
+    bottom: 0;
+}
+.logo-net{ margin-right: 15px; }
+
+.attribution { font-size: 18px; text-align: center; }
+.attribution-section{ align-items: center; padding:3px 0 40px 0;}
+.attribution a { color: hsl(228, 45%, 44%); text-decoration: none;}
+
+/* THIS RESOLUTION IS OF MY CELL PHONE, FOR TESTING. */
+@media (max-width: 900px) {
+    .box{
+        position: relative;
+        width: 380px;
+        height: 560px;
+        text-align: center;
+        display:block;
+        padding: 50px 0px 50px 0px;
+    }
+    
+    /* -----------------STYLES HEADER - MENU---------------------- */
+    .menu{padding: 0 0 0 ;}
+    .logo{ width: 110px; height: 20px; }
+    .menu{ padding: 20px 30px 20px 30px;}
+    .button-one{ padding: 2px 25px 5px 25px; }
+    .a-b1{ font-size: 13px; }
+    
+    /* ----------------STYLES SECTION ONE------------------------ */
+    
+    .section-one{
+        display: block;
+        text-align: center;
+    }
+    .div-section-one{
+        margin-left: auto;
+        margin-right: 0;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .title-one{
+        font-size: 25px;
+        line-height: 35px;
+        padding: 0%;
+    }
+    .p-one{
+        line-height: 28px;
+    }
+    .button-two{
+        padding: 12px 45px 12px 45px;
+        font-size: 14px;
+    }
+    .img-prin{width: 350px; height: 250px;}
+    
+    /* ----------------STYLES SECTION TWO------------------------ */
+    .img-two{
+        position: relative;
+        width: 70%;
+        height:250px;
+        top:0;
+    }
+    .div-section-two{ 
+        margin: 0 40px 0 40px;
+        position: absolute;
+        bottom: 30px;
+     }
+    .title-two .title-three .title-four{ font-size: 30px; }
+    
+    /* ----------------STYLES SECTION THREE------------------------ */
+    
+    .img-three{width:80%; height: 250px; }
+    .div-section-three{ margin: 0; padding: 40px 30px 20px 30px;}
+    
+     /* ----------------STYLES SECTION FOUR------------------------ */
+    .img-four{
+        position: relative;
+        width: 70%;
+        height:250px;
+        top:0;
+    }
+    .div-section-four{ 
+        margin: 0 40px 0 40px;
+        position: absolute;
+        bottom: 30px;
+     }
+    .p-four{ margin-right: 0px; }
+    
+     /* ----------------STYLES SECTION FIVE------------------------ */
+    
+     .section-five{
+         width: 90%;
+         left: 0%;
+         margin-left: auto;
+         margin-right: auto;
+     }
+    
+     /* ----------------STYLES FOOTER ------------------------ */
+    
+    .final-section{
+        display: block;
+        line-height: 30px;
+        margin: 0 10px 0 25px;
+    }
+    .logo-final{width: 200px;}
+    .extra{padding-left: 0px;}
+    .one{top:75px}
+    .link{font-size: 17px;}
+    .div-link{margin-bottom: 80px;}
+    .div-footer{ text-align: center; margin-left: auto; margin-right: auto; padding: 0;}
+    .p-f{ bottom: 100px; display: block; padding-left: 15px;}
+    .footer{height: 900px;}
+}
