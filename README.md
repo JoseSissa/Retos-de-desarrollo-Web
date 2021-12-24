@@ -1,2 +1,2 @@
 # Challenge-Training
-In this repository there are some challenge about web design, this challenges is resolved by me with the purpose be best web designer training every day. For this challenges I use tools like html css and javascript mainly.
+En este repositorio se encuentran algunos retos de desarrollo web que tienen como objetivo mejorar mis habilidades dentro de este mundillo, hasta el momento utilizo herramientas como HTML, CSS, JavaScript, Webpack, algunas librerías y API's para ejecutar dichos retos.
